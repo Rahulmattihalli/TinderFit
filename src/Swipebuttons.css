@@ -1,0 +1,36 @@
+.swipeButton{
+    position: fixed;
+    height: 10vh;
+    display: flex;
+    width: 100%;
+    bottom: 15px;
+    justify-content: space-evenly;
+}
+
+.swipeButton .MuiIconButton-root {
+    background-color: white;
+    box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.3);
+}
+
+.swipeButton_close{
+    width: 3vw;
+    color: #fb5748;
+}
+
+
+.swipeButton_fav{
+    width: 3vw;
+    color: green;
+}
+
+
+.swipeButton_flash{
+    width: 3vw;
+    color: blue;
+}
+
+
+.swipeButton_star{
+    width: 3vw;
+    color: purple;
+}
